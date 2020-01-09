@@ -1,5 +1,9 @@
-
-
+body{
+    background-image: url('./assets/images/train1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter:opacity(0.6) ;
+}
 .container {
 	height: auto;
 	width: 100%;
@@ -13,7 +17,7 @@
 }
 .bg {
     background-color: rgb(22, 22, 82);
-    color:black;
+    color:rgb(36, 164, 238);
     padding: 10px;
 }
 
@@ -30,7 +34,7 @@ h3 {
     font-style: italic;
 }
 .h4 {
-    color:black;
+    color:wheat;
     font-weight: bolder;
     padding: 5px;
 }
@@ -43,6 +47,6 @@ h3 {
 
 #newTrainBtn {
     background-color:rgb(22, 22, 82);
-    color:black;
+    color:rgb(36, 164, 238);
     border: none;
 }
